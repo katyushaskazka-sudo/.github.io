@@ -10,6 +10,20 @@ body{
     font-family: 'Inter';
     overflow-x: hidden;
 }
+
+/*оформление шапки сайта*/
+header{
+    padding: 10px 30%;
+
+
+}
+header>*{
+    display: flex;
+    justify-content: flex-end; 
+
+    width:1200px;
+    
+}
 header a{ 
     
     width: 735px;
@@ -19,28 +33,11 @@ header a{
     color: #edeef3;
    position: relative;
 }
-
-.pattern2{
-position: absolute;
-width: 1380px;
-height: 920px;
-left: 659px;
-top: -131px;
-
-transform: rotate(-30.29deg);
-
+.logo{
+    font-family: 'Pacifico';
+    font-size: 10px;
 }
-/* pattern 2 */
-.pattern1{
-position: absolute;
-width: 1532.18px;
-height: 920px;
-left: -617px;
-top: -359px;
 
-
-transform: matrix(-0.64, -0.77, -0.77, 0.64, 0, 0);
-}
 
 .dog{
 position: absolute;
@@ -109,24 +106,6 @@ line-height: 32px;
 color: #dcdde4;
 background: #C78E00;
 border-radius: 40px;
-}
-/*оформление шапки сайта*/
-header{
-    padding: 10px 30%;
-
-
-}
-header>*{
-    display: flex;
-    justify-content: flex-end; 
-
-    width:1200px;
-    
-}
-
-.logo{
-    font-family: 'Pacifico';
-    font-size: 10px;
 }
 
 
